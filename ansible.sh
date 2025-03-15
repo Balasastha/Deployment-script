@@ -5,3 +5,4 @@ sudo apt install ansible
 sudo mkdir -p /etc/ansible
 sudo touch /etc/ansible/hosts
 sudo chmod 644 /etc/ansible/hosts
+echo installation done
