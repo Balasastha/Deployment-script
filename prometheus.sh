@@ -30,7 +30,7 @@ global:
 scrape_configs:
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['13.235.248.20:9100', '65.0.123.45:9100']
+      - targets: ['3.6.90.252:9100', '15.206.28.161:9100']
 EOL
 
 # --- Create Prometheus systemd service ---
